@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "new-chunks-2b2t",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "2b2t new chunks",
+  "description": "A Meteor Client add-on that adds the New Chunks module for 2b2t.org.",
   "authors": [
-    "seasnail"
+    "supakeks"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/supakeks/2b2t-new-chunks"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "supakeks.addon.Addon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "new-chunks.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "130, 170, 245"
   },
   "depends": {
     "java": ">=17",
